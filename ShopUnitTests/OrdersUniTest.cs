@@ -134,22 +134,19 @@ namespace ShopUnitTests
                 // Arrange
                 var orderRequest = new OrderRequest { UserId = 1, ProductName = "Product A", Quantity = 2 };
 
-                // Mock HttpClient to simulate a successful user response
-                var httpClientMock = new Mock<HttpClient>();
-                _httpClientFactoryMock.Setup(x => x.CreateClient(It.IsAny<string>())).Returns(httpClientMock.Object);
+                // Mock HttpMessageHandler to simulate user response
+                var handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
+                handlerMock.Protected()
+                    .Setup<Task<HttpResponseMessage>>(
+                        "SendAsync",
+                        ItExpr.Is<HttpRequestMessage>(req => req.Method == HttpMethod.Get && req.RequestUri.ToString().Contains($"https://localhost:7088/api/User/{orderRequest.UserId}")),
+                        ItExpr.IsAny<CancellationToken>()
+                    )
+                    .ReturnsAsync(new HttpResponseMessage(HttpStatusCode.OK));
 
-                // Simulate the external user API returning a valid user response (HTTP 200)
-                var userResponse = new HttpResponseMessage(HttpStatusCode.OK);
-                httpClientMock.Setup(client => client.GetAsync(It.IsAny<string>())).ReturnsAsync(userResponse);
-
-                // Simulate the controller adding an order (since you don't have a repository, you can just directly create orders in the controller)
-                var createdOrder = new Order
-                {
-                    Id = 1, // Normally, this would be auto-generated
-                    UserId = orderRequest.UserId,
-                    ProductName = orderRequest.ProductName,
-                    Quantity = orderRequest.Quantity
-                };
+                // Create HttpClient with the mocked handler
+                var httpClient = new HttpClient(handlerMock.Object);
+                _httpClientFactoryMock.Setup(x => x.CreateClient(It.IsAny<string>())).Returns(httpClient);
 
                 // Act
                 var result = await _controller.CreateOrder(orderRequest);
@@ -165,6 +162,7 @@ namespace ShopUnitTests
                 Assert.AreEqual(orderRequest.Quantity, response.Order.Quantity);
             }
         }
+
 
 
         [TestMethod]
