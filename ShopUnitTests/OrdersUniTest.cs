@@ -110,6 +110,12 @@ namespace ShopUnitTests
             Assert.IsInstanceOfType(result, typeof(NotFoundObjectResult)); // Check that a 404 NotFound result is returned
         }
 
+        [TestMethod]
+        public async Task CreateOrder_ShouldReturnOrder_WhenUserIsValid()
+        {
+
+        }
+
 
 
         [TestMethod]
