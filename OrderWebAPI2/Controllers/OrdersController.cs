@@ -16,7 +16,7 @@ namespace OrdersWebAPI2.Controllers
         //Combines user and order data into a single response.
 
         private readonly HttpClient _httpClient;
-        private  OrderRepository _orderRepository;
+        public  OrderRepository _orderRepository;
 
         public OrdersController(IHttpClientFactory httpClientFactory)
         {
@@ -67,7 +67,8 @@ namespace OrdersWebAPI2.Controllers
             };
             _orderRepository.AddOrder(order);
 
-            return Ok(new { Message = "Order created", Order = order });
+            return new OkObjectResult(new { Message = "Order created", Order = order });
+
         }
     }
 }

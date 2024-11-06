@@ -8,6 +8,7 @@ using OrdersWebAPI2.Models;
 using System.Net;
 using System.Text.Json;
 using OrderWebAPI2.Models;
+using OrdersWebAPI2.Repositories;
 
 namespace ShopUnitTests
 {
@@ -113,47 +114,54 @@ namespace ShopUnitTests
         [TestMethod]
         public async Task CreateOrder_ShouldReturnOrder_WhenUserIsValid()
         {
+            // Arrange
+            var userId = 1;
+            var orderRequest = new OrderRequest { UserId = userId, ProductName = "Test Product", Quantity = 2 };
+            var expectedOrder = new Order { Id = 1, UserId = userId, ProductName = "Test Product", Quantity = 2 };
+
+            var handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
+            handlerMock.Protected()
+                .Setup<Task<HttpResponseMessage>>(
+                    "SendAsync",
+                    ItExpr.Is<HttpRequestMessage>(req =>
+                        req.Method == HttpMethod.Get &&
+                        req.RequestUri.ToString().Contains($"/api/User/{userId}")
+                    ),
+                    ItExpr.IsAny<CancellationToken>()
+                )
+                .ReturnsAsync(new HttpResponseMessage
+                {
+                    StatusCode = HttpStatusCode.OK,
+                    Content = new StringContent(JsonSerializer.Serialize(new { UserId = userId, Name = "Test User" })),
+                });
+
+            var httpClient = new HttpClient(handlerMock.Object)
+            {
+                BaseAddress = new Uri("http://localhost:7088")
+            };
+
+            var mockHttpClientFactory = new Mock<IHttpClientFactory>();
+            mockHttpClientFactory
+                .Setup(factory => factory.CreateClient(It.IsAny<string>()))
+                .Returns(httpClient);
+
+            var mockOrderRepository = new Mock<OrderRepository>();
+            mockOrderRepository.Setup(repo => repo.GetAllOrders()).Returns(new List<Order>());
+            mockOrderRepository.Setup(repo => repo.AddOrder(It.IsAny<Order>())).Verifiable();
+
+            var orderController = new OrdersController(mockHttpClientFactory.Object);
+            orderController._orderRepository = mockOrderRepository.Object;
+
+            // Act
+            var result = await orderController.CreateOrder(orderRequest) as OkObjectResult;
+
+            // Assert
+            Assert.IsNotNull(result);
+            Assert.AreEqual(200, result.StatusCode);
+
+            var resultValue = result.Value as dynamic;
+            Assert.IsNotNull(resultValue);
 
         }
-
-
-
-        [TestMethod]
-        public void TestMethod1() { }
-        // other test cases
-
-
-        [TestMethod]
-        public void TestMethod2() { }
-        // other test cases
-
-
-        [TestMethod]
-        public void TestMethod3() { }
-        // other test cases
-
-        [TestMethod]
-        public void TestMethod4() { }
-        // other test cases
-
-
-        [TestMethod]
-        public void TestMethod5() { }
-        // other test cases
-
-        [TestMethod]
-        public void TestMethod6() { }
-        // other test cases
-
-
-        [TestMethod]
-        public void TestMethod7() { }
-        // other test cases
-
-
-        [TestMethod]
-        public void TestMethod8() { }
-        // other test cases
-
     }
 }

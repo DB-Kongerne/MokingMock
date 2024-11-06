@@ -18,7 +18,7 @@ namespace OrdersWebAPI2.Repositories
         }
 
             // Get all orders
-            public IEnumerable<Order> GetAllOrders()
+            public virtual IEnumerable<Order> GetAllOrders()
             {
                 return _orders;
             }
@@ -35,7 +35,7 @@ namespace OrdersWebAPI2.Repositories
         }
 
         // Add a new order
-        public void AddOrder(Order order)
+        public virtual void AddOrder(Order order)
             {
                 order.Id = _orders.Any() ? _orders.Max(u => u.Id) + 1 : 1;
                _orders.Add(order);

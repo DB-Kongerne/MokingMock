@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MockServers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4915f402dd25f6de94f01bf67a5ebb16cf759a51")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81eabb8a3ab3faf10373bd25fe53eb34a79e873")]
 [assembly: System.Reflection.AssemblyProductAttribute("MockServers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MockServers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
