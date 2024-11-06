@@ -106,7 +106,7 @@ namespace ShopUnitTests
 
             // Assert
             Assert.IsNotNull(result); // Ensure the result is not null
-            Assert.IsInstanceOfType(result, typeof(NotFoundResult)); // Check that a 404 NotFound result is returned
+            Assert.IsInstanceOfType(result, typeof(NotFoundObjectResult)); // Check that a 404 NotFound result is returned
         }
 
 
