@@ -7,6 +7,7 @@ using OrdersWebAPI2.Controllers;
 using OrdersWebAPI2.Models;
 using System.Net;
 using System.Text.Json;
+using OrderWebAPI2.Models;
 
 namespace ShopUnitTests
 {
@@ -111,12 +112,60 @@ namespace ShopUnitTests
 
 
 
-        [TestMethod]
-        public async Task CreateOrder_ShouldReturnOrder_WhenUserIsValid()
+        [TestClass]
+        public class OrdersControllerTests
         {
+            private Mock<IHttpClientFactory> _httpClientFactoryMock;
+            private OrdersController _controller;
 
+            [TestInitialize]
+            public void Setup()
+            {
+                // Mock IHttpClientFactory
+                _httpClientFactoryMock = new Mock<IHttpClientFactory>();
 
+                // Instantiate OrdersController with mocks
+                _controller = new OrdersController(_httpClientFactoryMock.Object);
+            }
+
+            [TestMethod]
+            public async Task CreateOrder_ShouldReturnOrder_WhenUserIsValid()
+            {
+                // Arrange
+                var orderRequest = new OrderRequest { UserId = 1, ProductName = "Product A", Quantity = 2 };
+
+                // Mock HttpClient to simulate a successful user response
+                var httpClientMock = new Mock<HttpClient>();
+                _httpClientFactoryMock.Setup(x => x.CreateClient(It.IsAny<string>())).Returns(httpClientMock.Object);
+
+                // Simulate the external user API returning a valid user response (HTTP 200)
+                var userResponse = new HttpResponseMessage(HttpStatusCode.OK);
+                httpClientMock.Setup(client => client.GetAsync(It.IsAny<string>())).ReturnsAsync(userResponse);
+
+                // Simulate the controller adding an order (since you don't have a repository, you can just directly create orders in the controller)
+                var createdOrder = new Order
+                {
+                    Id = 1, // Normally, this would be auto-generated
+                    UserId = orderRequest.UserId,
+                    ProductName = orderRequest.ProductName,
+                    Quantity = orderRequest.Quantity
+                };
+
+                // Act
+                var result = await _controller.CreateOrder(orderRequest);
+
+                // Assert
+                var okResult = result as OkObjectResult;
+                Assert.IsNotNull(okResult);
+                Assert.AreEqual(200, okResult.StatusCode);
+
+                var response = okResult.Value as dynamic;
+                Assert.AreEqual("Order created", response.Message);
+                Assert.AreEqual(orderRequest.ProductName, response.Order.ProductName);
+                Assert.AreEqual(orderRequest.Quantity, response.Order.Quantity);
+            }
         }
+
 
         [TestMethod]
         public void TestMethod1() { }
