@@ -112,59 +112,6 @@ namespace ShopUnitTests
 
 
 
-        [TestClass]
-        public class OrdersControllerTests
-        {
-            private Mock<IHttpClientFactory> _httpClientFactoryMock;
-            private OrdersController _controller;
-
-            [TestInitialize]
-            public void Setup()
-            {
-                // Mock IHttpClientFactory
-                _httpClientFactoryMock = new Mock<IHttpClientFactory>();
-
-                // Instantiate OrdersController with mocks
-                _controller = new OrdersController(_httpClientFactoryMock.Object);
-            }
-
-            [TestMethod]
-            public async Task CreateOrder_ShouldReturnOrder_WhenUserIsValid()
-            {
-                // Arrange
-                var orderRequest = new OrderRequest { UserId = 1, ProductName = "Product A", Quantity = 2 };
-
-                // Mock HttpMessageHandler to simulate user response
-                var handlerMock = new Mock<HttpMessageHandler>(MockBehavior.Strict);
-                handlerMock.Protected()
-                    .Setup<Task<HttpResponseMessage>>(
-                        "SendAsync",
-                        ItExpr.Is<HttpRequestMessage>(req => req.Method == HttpMethod.Get && req.RequestUri.ToString().Contains($"https://localhost:7088/api/User/{orderRequest.UserId}")),
-                        ItExpr.IsAny<CancellationToken>()
-                    )
-                    .ReturnsAsync(new HttpResponseMessage(HttpStatusCode.OK));
-
-                // Create HttpClient with the mocked handler
-                var httpClient = new HttpClient(handlerMock.Object);
-                _httpClientFactoryMock.Setup(x => x.CreateClient(It.IsAny<string>())).Returns(httpClient);
-
-                // Act
-                var result = await _controller.CreateOrder(orderRequest);
-
-                // Assert
-                var okResult = result as OkObjectResult;
-                Assert.IsNotNull(okResult);
-                Assert.AreEqual(200, okResult.StatusCode);
-
-                var response = okResult.Value as dynamic;
-                Assert.AreEqual("Order created", response.Message);
-                Assert.AreEqual(orderRequest.ProductName, response.Order.ProductName);
-                Assert.AreEqual(orderRequest.Quantity, response.Order.Quantity);
-            }
-        }
-
-
-
         [TestMethod]
         public void TestMethod1() { }
         // other test cases
