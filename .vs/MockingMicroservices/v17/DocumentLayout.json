@@ -1,0 +1,543 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\moal\\Documents\\MockingMicroservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C374F16D-213E-4BBE-9DFD-0317F3F8D16B}|ShopUnitTests\\ShopUnitTests.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\shopunittests\\ordersunitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C374F16D-213E-4BBE-9DFD-0317F3F8D16B}|ShopUnitTests\\ShopUnitTests.csproj|solutionrelative:shopunittests\\ordersunitest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\orderwebapi2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|solutionrelative:orderwebapi2\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\orderwebapi2\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|solutionrelative:orderwebapi2\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\mockservers\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|solutionrelative:mockservers\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\orderwebapi2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|solutionrelative:orderwebapi2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\orderwebapi2\\models\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|solutionrelative:orderwebapi2\\models\\orderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\orderwebapi2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|solutionrelative:orderwebapi2\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\mockservers\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|solutionrelative:mockservers\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\mockservers\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|solutionrelative:mockservers\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\mockservers\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|solutionrelative:mockservers\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\orderwebapi2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|solutionrelative:orderwebapi2\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\mockservers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|solutionrelative:mockservers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\orderwebapi2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF6D8F4B-E835-4443-A8F5-6886242E2389}|OrderWebAPI2\\OrderWebAPI2.csproj|solutionrelative:orderwebapi2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\mockservers\\interfaces\\userserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|solutionrelative:mockservers\\interfaces\\userserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|c:\\users\\moal\\documents\\mockingmicroservices\\mockservers\\interfaces\\iuserserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEABC19B-86EE-475A-BAA8-568BBA1AC0E2}|MockServers\\MockServers.csproj|solutionrelative:mockservers\\interfaces\\iuserserviceclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Controllers\\CustomersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Repositories\\CustomerRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Repositories\\OrderRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\OrderRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\MockUserapiSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\OrdersWebAPI.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersUniTest.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\ShopUnitTests\\OrdersUniTest.cs",
+              "RelativeDocumentMoniker": "ShopUnitTests\\OrdersUniTest.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\ShopUnitTests\\OrdersUniTest.cs",
+              "RelativeToolTip": "ShopUnitTests\\OrdersUniTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T18:55:37.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "OrderWebAPI2\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "OrderWebAPI2\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADQAAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:30:31.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Models\\OrderRequest.cs",
+              "RelativeDocumentMoniker": "OrderWebAPI2\\Models\\OrderRequest.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Models\\OrderRequest.cs",
+              "RelativeToolTip": "OrderWebAPI2\\Models\\OrderRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:58:17.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "OrderWebAPI2\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Models\\User.cs",
+              "RelativeToolTip": "OrderWebAPI2\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:36:04.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "OrderWebAPI2\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "OrderWebAPI2\\Repositories\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:31:01.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwBwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:47:51.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MockServers\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MockServers\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:34:07.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T16:49:21.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Program.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAIBJwCMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:11:56.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAIBJwB0AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:49:43.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Order.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:50:31.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Repositories\\OrderRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwAUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:30:41.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAABRwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T17:53:46.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrderRequest.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\OrderRequest.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\OrderRequest.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\OrderRequest.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\OrderRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:34:09.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\appsettings.json",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-05T17:41:17.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:34:00.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "OrderWebAPI2\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Models\\Order.cs",
+              "RelativeToolTip": "OrderWebAPI2\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:30:48.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Program.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:18:07.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\CustomersWebApi\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T17:02:56.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MockServers\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "MockServers\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAIBJwDwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:32:07.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Model\\User.cs",
+              "RelativeDocumentMoniker": "MockServers\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Model\\User.cs",
+              "RelativeToolTip": "MockServers\\Model\\User.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA+wAoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:00:27.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MockUserapiSetup.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\MockUserapiSetup.cs",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\MockUserapiSetup.cs",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\MockUserapiSetup.cs",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\MockUserapiSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAawAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:17:25.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Program.cs",
+              "RelativeDocumentMoniker": "MockServers\\Program.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Program.cs",
+              "RelativeToolTip": "MockServers\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:05:50.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MockServers\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MockServers\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T21:19:24.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "OrderWebAPI2\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Properties\\launchSettings.json",
+              "RelativeToolTip": "OrderWebAPI2\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T21:39:28.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAoAAAAAAAAAAABRwBUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T20:46:03.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Program.cs",
+              "RelativeDocumentMoniker": "OrderWebAPI2\\Program.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\OrderWebAPI2\\Program.cs",
+              "RelativeToolTip": "OrderWebAPI2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:32:02.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrdersWebAPI.http",
+              "DocumentMoniker": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\OrdersWebAPI.http",
+              "RelativeDocumentMoniker": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\OrdersWebAPI.http",
+              "ToolTip": "C:\\Users\\moal\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\OrdersWebAPI.http",
+              "RelativeToolTip": "..\\..\\source\\repos\\MockingMicroservices\\OrdersWebAPI\\OrdersWebAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-03T16:02:59.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserServiceClient.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Interfaces\\UserServiceClient.cs",
+              "RelativeDocumentMoniker": "MockServers\\Interfaces\\UserServiceClient.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Interfaces\\UserServiceClient.cs",
+              "RelativeToolTip": "MockServers\\Interfaces\\UserServiceClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:03:47.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserServiceClient.cs",
+              "DocumentMoniker": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Interfaces\\IUserServiceClient.cs",
+              "RelativeDocumentMoniker": "MockServers\\Interfaces\\IUserServiceClient.cs",
+              "ToolTip": "C:\\Users\\moal\\Documents\\MockingMicroservices\\MockServers\\Interfaces\\IUserServiceClient.cs",
+              "RelativeToolTip": "MockServers\\Interfaces\\IUserServiceClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:01:17.992Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 455,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 455,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
